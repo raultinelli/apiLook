@@ -4,11 +4,11 @@ require 'environment.php';
 global $config;
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://lookupgg.com/apis/lookupgg/");
-	$config['dbname'] = 'ponta451_lookup';
+	define("BASE_URL", "");
+	$config['dbname'] = '';
 	$config['host'] = 'localhost';
-	$config['dbuser'] = 'ponta451_raul';
-	$config['dbpass'] = '1597530';
+	$config['dbuser'] = '';
+	$config['dbpass'] = '';
 	$config['jwt_secret_key'] = "Look123!";
 } else {
 	define("BASE_URL", "http://localhost/apis/devstagram/");
